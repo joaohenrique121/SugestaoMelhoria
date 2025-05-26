@@ -12,6 +12,7 @@ const ListSuggestions = ({sugestoes}) => {
                     <tr>
                         <th className="border border-black px-4 py-2">Nome</th>
                         <th className="border border-black px-4 py-2">Descrição</th>
+                        <th className="border border-black px-4 py-2">data_criacao</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -19,6 +20,7 @@ const ListSuggestions = ({sugestoes}) => {
                         <tr key={item.id} className="hover:bg-gray-100">
                             <td className="border border-black px-4 py-2">{item.nome}</td>
                             <td className="border border-black px-4 py-2">{item.descricao}</td>
+                            <td className="border border-black px-4 py-2">{item.data_criacao}</td>
                         </tr>
                     ))}
                     </tbody>
