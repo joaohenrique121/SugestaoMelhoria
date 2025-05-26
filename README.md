@@ -1,3 +1,8 @@
+Tecnologias usadas:
+React
+Tailwind-css
+Odoo
+
 Para o frontEnd:
 Rodar um "npm i" ou "npm install"
 para instalar as depedencias do projeto, após fazer isso rodar um "npm run dev"
